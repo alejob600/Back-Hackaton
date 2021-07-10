@@ -1,0 +1,28 @@
+@api =http://localhost:3000
+
+GET {{api}}/videos HTTP/1.1
+
+
+###
+
+
+GET {{api}}/videos/1
+
+###
+
+
+POST {{api}}/videos HTTP/1.1
+
+{
+     "url": "https://www.youtube.com/watch?v=vUKY7owtqfY",
+    "title": "video Digital Ocean",
+    "description": "video de introducción a la plataforma de Digital Ocean" 
+}
+
+
+###
+
+DELETE  {{api}}/videos
+###
+
+PUT  {{api}}/videos/1

@@ -25,7 +25,7 @@ coverage
 
 # Bower dependency directory (https://bower.io/)
 bower_components
-
+.env
 # node-waf configuration
 .lock-wscript
 
@@ -74,3 +74,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+dist 
+node_modules    
